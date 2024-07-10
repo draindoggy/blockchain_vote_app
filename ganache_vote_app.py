@@ -39,7 +39,6 @@ def get_candidate_id(candidate_name):
             return candidate[0]
     return None
 
-
 accounts = web3.eth.accounts
 account_count = int(input('введите количество аккаунтов, которые будут принимать участие в голосовании:'))
 for i in range(account_count):
